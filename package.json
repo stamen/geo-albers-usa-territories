@@ -1,0 +1,31 @@
+{
+  "name": "geo-albers-usa-territories",
+  "version": "0.0.1",
+  "description": "A map projection including all US overseas territories.",
+  "main": "dist/geo-albers-usa-territories.js",
+  "scripts": {
+    "prepublish": "rollup --config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stamen/us-albers-territories.git"
+  },
+  "keywords": [
+    "Map",
+    "Geo",
+    "GIS",
+    "D3"
+  ],
+  "author": "Alan McConchie",
+  "contributors": [
+    "Curran Kelleher"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stamen/geo-albers-usa-territories/issues"
+  },
+  "homepage": "https://github.com/stamen/geo-albers-usa-territories#readme",
+  "devDependencies": {
+    "rollup": "^2.18.1"
+  }
+}
