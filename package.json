@@ -1,6 +1,6 @@
 {
   "name": "geo-albers-usa-territories",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A map projection including all US overseas territories.",
   "main": "dist/geo-albers-usa-territories.js",
   "scripts": {
