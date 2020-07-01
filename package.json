@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stamen/us-albers-territories.git"
+    "url": "git+https://github.com/stamen/geo-albers-usa-territories.git"
   },
   "keywords": [
     "Map",

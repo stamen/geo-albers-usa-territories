@@ -2,7 +2,7 @@ export default {
   input: 'src/index.js',
   external: ['d3-geo'],
   output: {
-    file: 'dist/us-albers-territories.js',
+    file: 'dist/geo-albers-usa-territories.js',
     format: 'umd',
     name: 'geoAlbersUsaTerritories',
     globals: {
