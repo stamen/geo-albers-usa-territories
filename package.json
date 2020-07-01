@@ -18,8 +18,12 @@
     "D3"
   ],
   "author": "Alan McConchie",
+  "//": "Contributors list derived from https://github.com/d3/d3-geo/blob/master/src/projection/albersUsa.js",
   "contributors": [
-    "Curran Kelleher"
+    "Curran Kelleher",
+    "Mike Fogel",
+    "Noah Veltman",
+    "Mike Bostock"
   ],
   "license": "MIT",
   "bugs": {
