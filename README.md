@@ -1,5 +1,5 @@
-# us-albers-territories
-A map projection including all US overseas possessions
+# geo-albers-usa-territories
+A map projection including all US overseas territories.
 
 Original source: https://observablehq.com/@almccon/u-s-map-with-puerto-rico-us-virgin-islands-american-samoa-gua
 
