@@ -1,6 +1,6 @@
 import { geoAlbers, geoConicEqualArea } from 'd3-geo';
 
-const epsilon = 0.000001;
+var epsilon = 0.000001;
 
 function multiplex(streams) {
   return {
