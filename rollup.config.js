@@ -6,7 +6,7 @@ export default {
     format: 'umd',
     name: 'geoAlbersUsaTerritories',
     globals: {
-      'd3-geo': 'd3'
-    }
-  }
+      'd3-geo': 'd3',
+    },
+  },
 };
