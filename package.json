@@ -31,6 +31,10 @@
   },
   "homepage": "https://github.com/stamen/geo-albers-usa-territories#readme",
   "devDependencies": {
-    "rollup": "^2.18.1"
+    "rollup": "^2.26.11",
+    "d3-geo": "^2.0.1"
+  },
+  "peerDependencies": {
+    "d3-geo": "^2.0.1"
   }
 }
