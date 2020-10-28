@@ -5,7 +5,11 @@
   "main": "dist/geo-albers-usa-territories.js",
   "scripts": {
     "prepublish": "rollup --config",
-    "postpublish": "git push && git push --tags"
+    "postpublish": "git push && git push --tags",
+    "prettier": "prettier './src/**/*.js' 'rollup.config.js' --write"
+  },
+  "prettier": {
+    "singleQuote": true
   },
   "repository": {
     "type": "git",
@@ -31,8 +35,11 @@
   },
   "homepage": "https://github.com/stamen/geo-albers-usa-territories#readme",
   "devDependencies": {
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "d3-geo": "^2.0.1",
+    "prettier": "^2.1.1",
     "rollup": "^2.26.11",
-    "d3-geo": "^2.0.1"
+    "rollup-plugin-commonjs": "^10.1.0"
   },
   "peerDependencies": {
     "d3-geo": "^2.0.1"

@@ -1,4 +1,5 @@
 import { geoAlbers, geoConicEqualArea } from 'd3-geo';
+import { fitExtent, fitSize, fitWidth, fitHeight } from 'd3-geo/src/fit.js';
 
 var epsilon = 0.000001;
 
@@ -184,6 +185,22 @@ export function geoAlbersUsaTerritories() {
       ])
       .stream(pointStream);
     return reset();
+  };
+
+  albersUsaTerritories.fitExtent = function (extent, object) {
+    return fitExtent(albersUsaTerritories, extent, object);
+  };
+
+  albersUsaTerritories.fitSize = function (size, object) {
+    return fitSize(albersUsaTerritories, size, object);
+  };
+
+  albersUsaTerritories.fitWidth = function (width, object) {
+    return fitWidth(albersUsaTerritories, width, object);
+  };
+
+  albersUsaTerritories.fitHeight = function (height, object) {
+    return fitHeight(albersUsaTerritories, height, object);
   };
 
   function reset() {
